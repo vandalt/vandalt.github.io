@@ -69,20 +69,27 @@ const isActive = (path: string) => {
           ]}
         >
           <li class="col-span-2">
-            <a href="/posts" class:list={{ "active-nav": isActive("/posts") }}>
-              Posts
-            </a>
-          </li>
-          <li class="col-span-2">
-            <a href="/tags" class:list={{ "active-nav": isActive("/tags") }}>
-              Tags
-            </a>
-          </li>
-          <li class="col-span-2">
             <a href="/about" class:list={{ "active-nav": isActive("/about") }}>
               About
             </a>
           </li>
+          <li class="col-span-2">
+            <a href="/posts" class:list={{ "active-nav": isActive("/posts") }}>
+              Blog
+            </a>
+          </li>
+          <!-- TODO: Proper link to CV -->
+          <li class="col-span-2">
+            <a href="/cv" class:list={{ "active-nav": isActive("/cv") }}>
+              CV
+            </a>
+          </li>
+          <!-- TODO: Move this elsewhere  -->
+          <!-- <li class="col-span-2"> -->
+          <!--   <a href="/tags" class:list={{ "active-nav": isActive("/tags") }}> -->
+          <!--     Tags -->
+          <!--   </a> -->
+          <!-- </li> -->
           {
             SITE.showArchives && (
               <li class="col-span-2">
