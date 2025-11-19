@@ -4,8 +4,8 @@ export const SITE = {
   author: "Thomas Vandal",
   profile: "https://vandalt.io/about",
   desc: "Thomas Vandal's personal website",
-  // TODO: More complete title? And add vandalt as a new field in addition to author
-  title: "vandalt",
+  title: "vandalt.io",
+  // TODO: Change OG image and use this only as presentation/about image?
   ogImage: "vandalt-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
