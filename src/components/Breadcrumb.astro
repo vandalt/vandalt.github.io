@@ -9,9 +9,8 @@ const breadcrumbList = currentUrlPath.split("/").slice(1);
 // if breadcrumb is Home > Posts > 1 <etc>
 // replace Posts with Posts (page number)
 if (breadcrumbList[0] === "posts") {
-  // TODO: Properly manage this to just show pages when there are more than 1
-  // breadcrumbList.splice(0, 2, `Posts (page ${breadcrumbList[1] || 1})`);
-  `Posts`;
+  breadcrumbList.splice(0, 2, `Blog`);
+  // `Blog`;
 }
 
 // if breadcrumb is Home > Tags > [tag] > [page] <etc>
