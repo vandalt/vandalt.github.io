@@ -33,9 +33,13 @@ const backUrl = SITE.showBackButton ? Astro.url.pathname : "/";
         <span transition:name={props.titleTransition}>
           {props.pageTitle[1]}
         </span>
+        <slot name="title-append" />
       </h1>
     ) : (
-      <h1 class="text-2xl font-semibold sm:text-3xl">{props.pageTitle}</h1>
+      <h1 class="text-2xl font-semibold sm:text-3xl">
+        {props.pageTitle}
+        <slot name="title-append" />
+      </h1>
     )
   }
   <p class="mt-2 mb-6 italic">{props.pageDesc}</p>
