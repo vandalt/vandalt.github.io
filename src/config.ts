@@ -1,11 +1,9 @@
-// TODO: How do I get an image for the tab
 export const SITE = {
   website: "https://vandalt.io/", // replace this with your deployed domain
   author: "Thomas Vandal",
   profile: "https://vandalt.io/about",
   desc: "Thomas Vandal's personal website",
   title: "vandalt.io",
-  // TODO: Change OG image and use this only as presentation/about image?
   ogImage: "vandalt-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
