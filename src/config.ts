@@ -1,7 +1,7 @@
 export const SITE = {
-  website: "https://vandalt.io/", // replace this with your deployed domain
+  website: "https://vandalt.github.io/", // replace this with your deployed domain
   author: "Thomas Vandal",
-  profile: "https://vandalt.io/about",
+  profile: "https://vandalt.github.io/about",
   desc: "Thomas Vandal's personal website",
   title: "vandalt.io",
   ogImage: "vandalt-og.jpg",
